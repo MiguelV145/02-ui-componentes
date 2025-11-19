@@ -18,7 +18,7 @@ export class H6Page {
   selectedSize = signal('');
   selectedCrust = signal('');
   selectedToppings = signal<string[]>([]);
-  
+
 
   sizeOptions = [
     { value: 'small', name: 'Personal', icon: '🍕', price: '$8.99' },

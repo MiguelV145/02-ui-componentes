@@ -16,7 +16,7 @@ export const heuristicaRoutes: Routes = [
     },
     {
         path: 'consistencia-estah4ndares',
-        loadComponent: () => import('../h4-page/h4-page').then(m => m.H4Page) // Temporal, cambiar por H4Page cuando esté listo
+        loadComponent: () => import('../h4-page/h4-page').then(m=> m.H4Page) // Temporal, cambiar por H4Page cuando esté listo
     },
     {
         path: 'prevencion-errores',
@@ -58,7 +58,7 @@ export const heuristicaRoutes: Routes = [
     },
     {
         path: '4',
-        redirectTo: 'consistencia-estandares'
+        redirectTo: 'consistencia-estah4ndares'
     },
     {
         path: '5',

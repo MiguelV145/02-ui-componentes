@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './h3-page.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class H3Page { 
+export class  H3Page { 
 
   content = '';
   showModal = signal(false);
@@ -90,10 +90,7 @@ export class H3Page {
     this.content = 'Plantilla de ejemplo:\n\n1. Introducción\n2. Desarrollo\n3. Conclusiones';
     this.onTextChange();
   }
-
   
-  
-  //(////)
   enviando = signal(false);
   registroExitoso = signal(false);
   mensaje = signal<{tipo: 'success' | 'error', texto: string} | null>(null);
