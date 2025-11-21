@@ -3,6 +3,7 @@ import { HeaderHeuristicaComponent } from '../component/header-heuristica/header
 
 @Component({
   selector: 'app-h4-page',
+  standalone: true,
   imports: [HeaderHeuristicaComponent],
   templateUrl: './h4-page.html',
   changeDetection: ChangeDetectionStrategy.OnPush,

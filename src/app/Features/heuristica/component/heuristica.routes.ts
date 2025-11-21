@@ -28,19 +28,19 @@ export const heuristicaRoutes: Routes = [
     },
     {
         path: 'flexibilidad-eficiencia',
-        loadComponent: () => import('../h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H7Page cuando esté listo
+        loadComponent: () => import('../h7-page/h7-page').then(m => m.H7Page) // Temporal, cambiar por H7Page cuando esté listo
     },
     {
         path: 'diseno-estetico-minimalista',
-        loadComponent: () => import('../h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H8Page cuando esté listo
+        loadComponent: () => import('../h8-page/h8-page').then(m => m.H8Page) // Temporal, cambiar por H8Page cuando esté listo
     },
     {
         path: 'ayuda-reconocer-errores',
-        loadComponent: () => import('../h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H9Page cuando esté listo
+        loadComponent: () => import('../h9-page/h9-page').then(m => m.H9Page) // Temporal, cambiar por H9Page cuando esté listo
     },
     {
         path: 'ayuda-documentacion',
-        loadComponent: () => import('../h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H10Page cuando esté listo
+        loadComponent: () => import('../h10-page/h10-page').then(m => m.H10Page) // Temporal, cambiar por H10Page cuando esté listo
     },
 
     // También mantenemos las rutas con números para compatibilidad
